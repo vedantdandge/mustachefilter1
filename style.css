@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: blue;
+}
+canvas{
+    animation-name:Clown_Nose_App;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Clown_Nose_App{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
